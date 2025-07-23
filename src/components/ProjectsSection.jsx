@@ -29,8 +29,8 @@ const projects = [
       "A React.js-based personal portfolio to highlight my work, skills, and web development journey.",
     image: portfolioReact,
     tags: ["React", "Javascript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://aryansinghai-portfolio.vercel.app/",
+    githubUrl: "https://github.com/aryanjainsinghai/Portfolio",
   },
 ];
 
