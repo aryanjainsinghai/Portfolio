@@ -1,6 +1,7 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import hotelManagement from "../assets/hotelManagement.png"
 import portfolioReact from "../assets/portfolioReact.png"
+import blogApp from "../assets/blogApp.png"
 
 const projects = [
   {
@@ -14,23 +15,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "Hospital Management",
-    description:
-      "Created a Hospital Management System using Java and OOP while practicing DSA, with features like patient records and appointment handling.",
-    image: "/projects/project2.png",
-    tags: ["JAVA", "OOPS"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/aryanjainsinghai/Hospital_management_System-main",
-  },
-  {
-    id: 3,
     title: "Full Stack Blog App",
     description:
       "A dynamic Full Stack Blog App that enables users to create, edit, and share blog posts with real-time updates. Built using React, Node.js, Express, and MongoDB for seamless front-end and back-end integration.",
-    image: "/projects/project2.png",
+    image: blogApp,
     tags: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB"],
     demoUrl: "#",
     githubUrl: "https://github.com/aryanjainsinghai/blog-app-cilli-blog",
+  },
+  {
+    id: 3,
+    title: "Hospital Management",
+    description:
+      "Created a Hospital Management System using Java and OOP while practicing DSA, with features like patient records and appointment handling.",
+    image: "",
+    tags: ["JAVA", "OOPS"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/aryanjainsinghai/Hospital_management_System-main",
   },
   {
     id: 4,
