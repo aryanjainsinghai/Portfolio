@@ -20,10 +20,20 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["JAVA", "OOPS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/aryanjainsinghai/Hospital_management_System-main",
   },
   {
     id: 3,
+    title: "Full Stack Blog App",
+    description:
+      "A dynamic Full Stack Blog App that enables users to create, edit, and share blog posts with real-time updates. Built using React, Node.js, Express, and MongoDB for seamless front-end and back-end integration.",
+    image: "/projects/project2.png",
+    tags: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/aryanjainsinghai/blog-app-cilli-blog",
+  },
+  {
+    id: 4,
     title: "Portfolio",
     description:
       "A React.js-based personal portfolio to highlight my work, skills, and web development journey.",
